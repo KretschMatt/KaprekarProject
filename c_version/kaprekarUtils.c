@@ -24,7 +24,7 @@
  */
 int isKaprekar(int n) {
 
-double numberOfDigits;
+int numberOfDigits;
 
   if(n < 1) {
     return 0;
