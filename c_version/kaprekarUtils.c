@@ -34,7 +34,7 @@ double numberOfDigits;
   //compute the square
   long square = n * (long) n;
   //compute the number of digits of the square
-  int numDigits = (int) log10(n) + 1;
+  int numberOfDigits = (int) log10(n) + 1;
   long modulus;
   modulus = 0;
   long first, second;
