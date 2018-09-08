@@ -45,8 +45,8 @@ int numberOfDigits;
     modulus *= 10;
 
     //split the square into two parts
-    first = square / numberOfDigits;
-    second = square % numberOfDigits;
+    first = square / modulus;
+    second = square % modulus;
 
     //test if the split makes a Kaprekar number
     //the second part cannot be zero and if
