@@ -36,7 +36,7 @@ int numberOfDigits;
   //compute the number of digits of the square
   numberOfDigits = (int) log10(n) + 1;
   long modulus;
-  modulus = n * n;
+  modulus = 1;
   long first, second;
 
   //for each possible "split" of the square...
