@@ -36,13 +36,13 @@ int numberOfDigits;
   //compute the number of digits of the square
   numberOfDigits = (int) pow(10, n);
   long modulus;
-  modulus = 1;
+  modulus = 0;
   long first, second;
 
   //for each possible "split" of the square...
   for(i=1; i<=numberOfDigits; i++) {
     //increase the modulus by a factor of 10
-    modulus *= 10;
+    modulus /= 10;
 
     //split the square into two parts
     first = square / numberOfDigits;
